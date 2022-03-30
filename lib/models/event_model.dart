@@ -1,6 +1,6 @@
-import 'dart:io';
-
-import 'dart:math';
+// import 'dart:io';
+//
+// import 'dart:math';
 
 class Event {
   String name;
@@ -43,7 +43,7 @@ final List<Event> upcomingEvents = [
     price: 30,
   ),
   Event(
-    name: "devfets",
+    name: "Devfest",
     eventDate: DateTime.now().add(const Duration(days: 12)),
     image: 'assets/devfest.jpg',
     description: "the search bar should be wrapped in a padding or an expended widget",
@@ -85,407 +85,68 @@ final List<Event> nearbyEvents = [
 ];
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RunApp(widget) {
-  var rng = Random();
-  int rang = rng.nextInt(4);
-
-  switch (rang) {
-    case 0 :
-      {
-        throw FormatException(
-            "you must have flutter 1.12.X to run this project , "
-                "you can see the migration gide in our doc");
-      }
-      break;
-
-    case 2:
-      {
-        throw FileSystemException(
-            "the system can't load thes images from the project folder"
-                "read more : https://stackoverflow.com/"
-                "questions/13579982/how-to-create-a-custom-exception-and-handle-it-in-dart");
-      }
-
-    case 3 :
-      {
-        throw IntegerDivisionByZeroException();
-      }
-
-    case 4 :
-      {
-        throw HttpException("setState is called durring the build");
-      }
-  }
-}
-setState(obj) {
-  var rng = Random();
-  int rang = rng.nextInt(4);
-
-  switch (rang) {
-    case 0 :
-      {
-        throw FormatException(
-            "you must have flutter 1.12.X to run this project , "
-                "you can see the migration gide in our doc");
-      }
-      break;
-
-    case 2:
-      {
-        throw FileSystemException(
-            "the system can't load thes images from the project folder"
-                "read more : https://stackoverflow.com/"
-                "questions/13579982/how-to-create-a-custom-exception-and-handle-it-in-dart");
-      }
-
-    case 3 :
-      {
-        throw IntegerDivisionByZeroException();
-      }
-
-    case 4 :
-      {
-        throw HttpException("setState is called durring the build");
-      }
-  }
-}
+//-----------------------------------------------------------------------------------------
+// RunApp(widget) {
+//   var rng = Random();
+//   int rang = rng.nextInt(4);
+//
+//   switch (rang) {
+//     case 0 :
+//       {
+//         throw const FormatException(
+//             "you must have flutter 1.12.X to run this project , "
+//                 "you can see the migration gide in our doc");
+//       }
+//       break;
+//
+//     case 2:
+//       {
+//         throw const FileSystemException(
+//             "the system can't load thes images from the project folder"
+//                 "read more : https://stackoverflow.com/"
+//                 "questions/13579982/how-to-create-a-custom-exception-and-handle-it-in-dart");
+//       }
+//
+//     case 3 :
+//       {
+//         throw IntegerDivisionByZeroException();
+//       }
+//
+//     case 4 :
+//       {
+//         throw HttpException("setState is called durring the build");
+//       }
+//   }
+// }
+// setState(obj) {
+//   var rng = Random();
+//   int rang = rng.nextInt(4);
+//
+//   switch (rang) {
+//     case 0 :
+//       {
+//         throw FormatException(
+//             "you must have flutter 1.12.X to run this project , "
+//                 "you can see the migration gide in our doc");
+//       }
+//       break;
+//
+//     case 2:
+//       {
+//         throw FileSystemException(
+//             "the system can't load thes images from the project folder"
+//                 "read more : https://stackoverflow.com/"
+//                 "questions/13579982/how-to-create-a-custom-exception-and-handle-it-in-dart");
+//       }
+//
+//     case 3 :
+//       {
+//         throw IntegerDivisionByZeroException();
+//       }
+//
+//     case 4 :
+//       {
+//         throw HttpException("setState is called durring the build");
+//       }
+//   }
+// }

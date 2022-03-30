@@ -31,12 +31,12 @@ class UpComingEventCard extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(16),
         child: Container(
-          color: imgBG,
+          // color: imgBG,
           width: double.infinity,
           child: Hero(
             tag: event.image,
-            child: Image.network(
-              event.image,
+            child: Image.asset(
+                event.image,
               fit: BoxFit.cover,
             ),
           ),
